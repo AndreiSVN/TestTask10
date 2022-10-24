@@ -1,0 +1,50 @@
+﻿species__name,breed__code,gender__code,age
+герой,indian,девочка,1
+герой,cockateil,зеленый,2
+герой,german_shepherd ,кабель,
+герой,pitbull,мальчик,0
+герой,,розетка,1
+коза,indian,зеленый,
+коза,cockateil,кабель,0
+коза,german_shepherd ,мальчик,1
+коза,pitbull,розетка,2
+коза,,,0
+коза,abyssian,вилка,1
+коза,abyssian,девочка,2
+кот,cockateil,мальчик,2
+кот,german_shepherd ,розетка,0
+кот,pitbull,,1
+кот,,вилка,2
+кот,abyssian,девочка,
+кот,abyssian,зеленый,0
+кот,indian,кабель,1
+кошка,german_shepherd ,,2
+кошка,pitbull,вилка,
+кошка,,девочка,0
+кошка,abyssian,зеленый,1
+кошка,abyssian,кабель,2
+кошка,indian,мальчик,0
+кошка,cockateil,розетка,1
+обезьянка,pitbull,девочка,1
+обезьянка,,зеленый,2
+обезьянка,abyssian,кабель,0
+обезьянка,abyssian,мальчик,1
+обезьянка,indian,розетка,2
+обезьянка,cockateil,,
+обезьянка,german_shepherd ,вилка,0
+,,кабель,1
+,abyssian,мальчик,2
+,abyssian,розетка,
+,indian,,0
+,cockateil,вилка,1
+,german_shepherd ,девочка,2
+,pitbull,зеленый,0
+герой,abyssian,,1
+герой,indian,вилка,2
+герой,cockateil,девочка,0
+герой,german_shepherd ,зеленый,1
+герой,pitbull,кабель,2
+герой,,мальчик,
+,pitbull,,2
+кошка,,,
+,,мальчик,
