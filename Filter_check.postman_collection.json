@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "0f3f16b0-ca42-4b5c-b1b4-4f88af338184",
+		"name": "Проверка фильтров питомцев",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21465386"
+	},
+	"item": [
+		{
+			"name": "Фильтры Pairwise",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/pet/?page=1&page_size=6&species__name={{species__name}}&breed__code={{breed__code}}&gender__code={{gender__code}}&age={{age}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "{{species__name}}"
+						},
+						{
+							"key": "breed__code",
+							"value": "{{breed__code}}"
+						},
+						{
+							"key": "gender__code",
+							"value": "{{gender__code}}"
+						},
+						{
+							"key": "age",
+							"value": "{{age}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://130.193.37.179",
+			"type": "string"
+		},
+		{
+			"key": "species__name",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "breed__code",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "gender__code",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "age",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
